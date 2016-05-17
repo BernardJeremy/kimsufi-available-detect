@@ -1,0 +1,5 @@
+{
+  "link": "https://ws.ovh.com/dedicated/r2/ws.dispatcher/getAvailability2",
+  "reference": "160sk2",
+  "slackHookUrl" : "https://hooks.slack.com/services/...."
+}

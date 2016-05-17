@@ -1,0 +1,23 @@
+{
+  "name": "kimsufi-available-detect",
+  "version": "1.0.0",
+  "description": "Node.JS script allowing to check servers are available on kimsufi.com and send a report to Slack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BernardJeremy/kimsufi-available-detect.git"
+  },
+  "author": "BernardJeremy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BernardJeremy/kimsufi-available-detect/issues"
+  },
+  "homepage": "https://github.com/BernardJeremy/kimsufi-available-detect#readme",
+  "dependencies": {
+    "request": "^2.69.0",
+    "slack-node": "^0.2.0"
+  }
+}
