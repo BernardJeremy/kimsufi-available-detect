@@ -3,7 +3,7 @@ kimsufi-available-detect
 Node.JS script allowing to check servers are available on kimsufi.com and send a report to Slack.
 
 ## Features
-- Detect which servers are available on startup
+- Detect if a given server is available
 - Send any change to a configured Slack hook
 
 ## Installation
@@ -12,8 +12,10 @@ Node.JS script allowing to check servers are available on kimsufi.com and send a
 - Perform `npm install` command.
 - Install a [incoming-webhooks](https://api.slack.com/incoming-webhooks) on your Slack.
 - Add your link of the Slack incoming-webhooks in the `config.json` file.
+- Add your wanted reference in the `config.json` file.
 - Optional (but recommended) : Install a task scheduler (like `CRON`) to run the script regularly.
 
 ## Configuration
 - `link` : Link to the concerned kimsufi.com page.
+- `reference` : Reference of the server you want to track.
 - `slackHookUrl` :  Link to your Slack incoming-webhooks.
