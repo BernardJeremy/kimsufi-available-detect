@@ -4,7 +4,7 @@ Node.JS script allowing to check servers are available on kimsufi.com and send a
 
 ## Features
 - Detect if a given server is available
-- Send any change to a configured Slack hook
+- Send any available server's information to a Slack hook
 
 ## Installation
 - Simply clone this depot anywhere on your server.
