@@ -16,6 +16,6 @@ Node.JS script allowing to check servers are available on kimsufi.com and send a
 - Optional (but recommended) : Install a task scheduler (like `CRON`) to run the script regularly.
 
 ## Configuration
-- `link` : Link to the concerned kimsufi.com page.
-- `reference` : Reference of the server you want to track.
+- `link` : Link to the concerned kimsufi.com page (You shouldn't have to change this).
+- `reference` : Reference of the server you want to track (See [map.json](https://github.com/hardware/ovh-availability/blob/master/map.json) to get the reference of your wanted model).
 - `slackHookUrl` :  Link to your Slack incoming-webhooks.
